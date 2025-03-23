@@ -1,0 +1,28 @@
+{
+  "name": "@antfu/eslint-config-ts",
+  "version": "0.35.3",
+  "description": "",
+  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "license": "MIT",
+  "homepage": "https://github.com/antfu/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint-plugin-jest": "^27.2.1",
+    "@antfu/eslint-config-basic": "0.35.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
